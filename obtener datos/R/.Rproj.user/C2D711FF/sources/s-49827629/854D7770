@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1597508359420.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4186682945",
+    "id" : "854D7770",
+    "lastKnownWriteTime" : 1597508905,
+    "last_content_update" : 1597508905544,
+    "path" : "~/Documents/cursos/Ingeniería de características/obtener datos/data/example.xml",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "26,17",
+        "scrollLine" : "9",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "xml"
+}
