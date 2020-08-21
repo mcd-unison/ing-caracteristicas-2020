@@ -1,3 +1,4 @@
+![](logo.png)
 # Repositorio con material del curso de Ingeniería de Características
 
 ## 1. Instalación del entorno de trabajo
