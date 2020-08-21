@@ -16,4 +16,26 @@
 ### 1.2. Instalación de `python`
 
 1. Si ya se tiene la distribución de *Anaconda* instalada, pasar al siguiente paso, si no, instalas la versión mímina *Miniconda* de *python 3.X* con [estas instrucciones](https://docs.conda.io/en/latest/miniconda.html).
-2. En la terminal utilizar el comando *conda* para crear un entorno virtual.
+2. En la terminal utilizar el comando *conda* para crear un entorno virtual a partir del archivo `requirements.yml` que viene en el repositorio.
+   ```bash
+   $ conda env -f requirements.yml -n ing-car
+   ```
+   o cualquier otro nombre que se le quiera poner al entorno
+3. Cada vez que se vaya a utilizar el entorno, utilizar:
+   ```bash
+   $ conda activate ing-car
+   ```
+4. Cuando ya se termine de usar, desactivar el entorno virtual ( y mantener a cada proyecto con su propio entorno virtual)
+   ```bash
+   $ conda deactivate
+   ```
+
+### 1.3. Instalación de R y Rstudio
+
+1. Instalar el lenguaje R, descargandolo de su [portal oficial](https://cran.itam.mx), y [RStudio Desktop](https://rstudio.com/products/rstudio/download/).
+2. Dentro de RStudio, instalar las librerías de [tidyverse](https://www.tidyverse.org), en la consola con el comando:
+   ```r
+   > install.package('tidyverse')
+   ```
+3. En cada sección donde hay codigo en R se encuentra un archivo `xxxx.Rproj`. Abrirlo para ajustar el directorio de trabajo y demás configuraciones. Por ejemplo, para la obtención de datos abrir el proyecto `./obtener\ datos/R/R.Rproj`.
+   
