@@ -128,3 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .Rproj.user
+
+# Directorio de datos descargados en obtener datos
+/obtener\ datos/data/
