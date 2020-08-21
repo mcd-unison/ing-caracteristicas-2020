@@ -15,4 +15,4 @@ if(!file.exists(archivo.nombre)){
 }
 
 r.json <- fromJSON(archivo.nombre)
-toJSON(iris, pretty = TRUE)
+
