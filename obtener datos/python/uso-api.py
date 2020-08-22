@@ -38,7 +38,10 @@ print("\nContenido: {}".format(response.content))
 #Vamos a ver cuando va a pasar la estacion espacial sobre nuesta cabeza
 
 # Pasando los valores como parámetros
-parametros = {"lat": 29.08919, "lon": -110.96133}
+parametros = {
+    "lat": 29.08919, 
+    "lon": -110.96133
+}
 response = requests.get("http://api.open-notify.org/iss-pass.json", params=parametros)
 print("\n\nStatus code: {}".format(response.status_code))
 print("\nContenido: {}".format(response.content))
@@ -59,5 +62,3 @@ datos_df = pd.DataFrame.from_dict(datos_dic['response'], orient="columns")
 for (atr, valor) in datos_dic['request'].items():
     datos_df[atr] = valor
 datos_df
-
-# %%
