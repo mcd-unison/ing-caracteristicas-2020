@@ -131,3 +131,7 @@ dmypy.json
 
 # Directorio de datos descargados en obtener datos
 /obtener\ datos/data/
+
+# Mugrero que deja el MacOS
+.DS_Store
+
