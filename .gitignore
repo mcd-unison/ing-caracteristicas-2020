@@ -135,3 +135,5 @@ dmypy.json
 # Mugrero que deja el MacOS
 .DS_Store
 
+# Evitamos pasar un archivo gigantesco
+fasttext-sbwc.vec.gz
