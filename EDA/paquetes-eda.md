@@ -11,5 +11,6 @@ remotes::install_github('rapporter/pander')
 
 ```sh
 conda install -c conda-forge pandas-profiling
+pip install sweetviz
 ```
 
