@@ -4,7 +4,7 @@
 
 ```r
 install.packages(c("summarytools", "explore", "dataMaid"))
-remotes::install_github('rapporter/pander')
+# remotes::install_github('rapporter/pander')
 ```
 
 ## Python

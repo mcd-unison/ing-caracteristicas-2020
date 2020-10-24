@@ -15,8 +15,10 @@ library(summarytools)
 library(readr) 
 df <- read_csv("insurance.csv") 
 
-view(dfSummary(df), file="insurance-summarytools.html")
+a <- dfSummary(df)
 
+
+view(dfSummary(df), file="insurance-summarytools.html")
 
 #---------- Segunda opción (mas acá) ---------------------------------
 

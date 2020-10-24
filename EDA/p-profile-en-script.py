@@ -2,7 +2,7 @@
 
 #%% Abrir data frame
 import pandas as pd
-insurance = pd.read_csv("insurance.cvs")
+insurance = pd.read_csv("insurance.csv")
 
 #%% Probando pandas-profiling
 
