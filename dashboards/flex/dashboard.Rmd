@@ -4,8 +4,8 @@ output:
   flexdashboard::flex_dashboard:
     orientation: rows
     vertical_layout: fill
-    theme: cosmo
-    social: [ "twitter", "facebook", "linkedin", "menu" ]
+    theme: spacelab
+    social: [ "menu" ]
     # logo: logo-image.png
     # favicon: favicon-image.png
 
